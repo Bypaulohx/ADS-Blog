@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADS blog | Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="shortcut icon" href="/images/Logo-icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- Barra de navegação -->
+  <header>
+    <nav class="barra-de-navegação">
+      <div class="logo">
+        <img src="/images/Logo.png" alt="logo" width=180>
+      </div>
+      <div class="pesquisar">
+        <i class="bi bi-search"></i>
+        <input type="text" placeholder="Buscar">
+      </div>
+      <div class="menu">
+        <button class="entrar-botao">
+          <i class="bi bi-person"></i> Entrar
+        </button>
+        <li class="suspenso">
+          <a href="#">Recursos Gratuitos <i class="bi bi-chevron-down"></i></a>
+          <ul class="conteudo-suspenso">
+            <li>Front-End</li>
+            <li>Back-End</li>
+            <li>Mobile</li>
+            <li>Software</li>
+          </ul>
+        </li>
+      </div>
+    </nav>
+  </header>
+  <!-- Fim Barra de navegação -->
+
+  <!-- Secao principal -->
+  <div class="recipiente">
+    <div class="caixa-de-conteudo">
+      <div class="conteudo-de-texto">
+        <div class="cabeçalho">
+          <span class="destaque">DESTAQUE</span>
+          <i class="bi bi-clock"> </i> <span class="tempo-de-leitura"> 5 min de leitura</span>
+        </div>
+        <h2>Carreira como Dev freelancer</h2>
+        <p>
+          Aprenda como construir uma carreira dev freelancer de sucesso, com dicas sobre precificação, gestão
+          financeira, formalização e...
+        </p>
+        <button class="leia-mais">LER MAIS</button>
+      </div>
+      <div class="conteudo-da-imagem">
+        <img src="/images/carreira.png" alt="Dev freelancer">
+      </div>
+    </div>
+  </div>
+  <!-- Fim Secao principal -->
+
+  <!-- Seçao de artigos -->
+  <section class="artigos-mais-recentes">
+    <span class="artigo-span">Do zero ao avançado_</span>
+    <h2>Nossos últimos artigos</h2>
+    <div class="grade-de-artigos">
+      <div class="artigo">
+        <img src="/images/carreira.png" alt="Carreira como Dev freelancer" class="card-image">
+        <span class="categoria">CARREIRA</span>
+        <h3>Carreira como Dev freelancer</h3>
+        <span class="autor">ADS blog</span>
+      </div>
+
+      <div class="artigo">
+        <img src="/images/b2b.png" alt="Como desenvolver programadores" class="card-image">
+        <span class="categoria">B2B</span>
+        <h3>Como desenvolver programadores(as) de todos os níveis</h3>
+        <span class="autor">ADS blog</span>
+      </div>
+
+      <div class="artigo">
+        <img src="/images/php.png" alt="Loops no PHP" class="card-image">
+        <span class="categoria">PHP</span>
+        <h3>Loops no PHP explicados de forma simples</h3>
+        <span class="autor">ADS blog</span>
+      </div>
+
+      <div class="artigo">
+        <img src="/images/php.png" alt="PHP em grandes empresas" class="card-image">
+        <span class="categoria">PHP</span>
+        <h3>PHP em grandes empresas: por que essa linguagem ainda é poderosa</h3>
+        <span class="autor">ADS blog</span>
+      </div>
+
+      <div class="artigo">
+        <img src="/images/certificacoes.png" alt="Certificações relevantes" class="card-image">
+        <span class="categoria">CARREIRA</span>
+        <h3>Certificações relevantes para programadores</h3>
+        <span class="autor">ADS blog</span>
+      </div>
+
+      <div class="artigo">
+        <img src="/images/react-native.png" alt="React Native Iniciante" class="card-image">
+        <span class="categoria">REACT</span>
+        <h3>Como começar a aprender React Native: Guia Completo para Iniciantes</h3>
+        <span class="autor">ADS blog</span>
+      </div>
+
+      <div class="artigo">
+        <img src="/images/default.png" alt="software e hardware" class="card-image">
+        <span class="categoria">CONFIGURAÇÃO</span>
+        <h3>Software e hardware: entenda a diferença e comece a programar</h3>
+        <span class="autor">ADS blog</span>
+      </div>
+
+      <div class="artigo">
+        <img src="/images/php.png" alt="configurar PHP" class="card-image">
+        <span class="categoria">PHP</span>
+        <h3>Como configurar ambiente PHP</h3>
+        <span class="autor">ADS blog</span>
+      </div>
+
+      <div class="artigo">
+        <img src="/images/inteligencia-artificial.png" alt="IA" class="card-image">
+        <span class="categoria">INTELIGÊNCIA ARTIFICIAL</span>
+        <h3>Como funciona uma IA generativa?</h3>
+        <span class="autor">ADS blog</span>
+      </div>
+    </div>
+  </section>
+  <!-- Fim Seçao de artigos -->
+
+  <!-- Componente de paginação -->
+  <div class="paginaçao">
+    <button class="paginaçao-btn prev" disabled>
+      <span class="seta-esquerda">&larr;</span> PREV
+    </button>
+
+    <div class="numeros-de-paginaçao">
+      <button class="numero-de-paginaçao active">1</button>
+      <span class="reticencias-de-paginaçao">...</span>
+      <button class="numero-de-paginaçao">5</button>
+    </div>
+
+    <button class="paginaçao-btn next">
+      NEXT <span class="seta-direita">&rarr;</span>
+    </button>
+  </div>
+  </section>
+  <!-- Fim Componente de paginação -->
+
+  <!-- Seção do boletim informativo -->
+  <div class="caixa-de-conteudo">
+    <div class="conteudo-de-texto">
+      <h3>Aprenda programação do zero e DE GRAÇA</h3>
+      <p>No Discover você vai descomplicar a programação, aprender a criar seu primeiro site com a mão na massa e
+        iniciar sua transição de carreira.</p>
+    </div>
+    <a href="#" class="btn">COMECE A ESTUDAR AGORA</a>
+  </div>
+
+  <hr class="separacao">
+
+  <div class="seçao-de-boletim-informativo">
+    <div class="conteudo-de-texto">
+      <h4>Newsletter</h4>
+      <p>Receba conteúdos inéditos e novidades gratuitamente</p>
+    </div>
+    <div class="conteiner-de-entrada">
+      <i class="bi bi-envelope"></i>
+      <input type="email" placeholder="Digite seu e-mail">
+      <input type="submit" value="ENVIAR">
+    </div>
+  </div>
+
+  <div class="conteiner-de-politica">
+    <div class="seçao-de-politica">
+      <input type="checkbox" id="privacy">
+      <label for="privacy">Autorizo o envio de comunicações por e-mail ou qualquer outro meio e concordo com os Termos e
+        políticas de privacidade.</label>
+    </div>
+  </div>
+  <!-- Fim Seção do boletim informativo -->
+  <hr>
+  <!-- Seção de rodapé -->
+  <footer>
+    <div class="conteiner-de-rodape">
+      <div class="seçao">
+        <h3>COMECE A ESTUDAR</h3>
+        <button class="botao-de-inscriçao">ASSINAR AGORA ></button>
+        <button class="botao-de-contato">
+          <i class="bi bi-whatsapp"></i> FALE CONOSCO
+        </button>
+      </div>
+      <div class="seçao">
+        <h3>FORMAÇÕES EM PROGRAMAÇÃO</h3>
+        <ul>
+          <li>Formação em DevOps</li>
+          <li>Formação em C#</li>
+          <li>Formação em Python</li>
+          <li>Formação em Java</li>
+          <li>Formação em IA</li>
+          <li>Formação Full-Stack</li>
+          <li>Formação em React</li>
+          <li>Formação em Node.JS</li>
+          <li>Formação em React Native</li>
+        </ul>
+      </div>
+      <div class="seçao">
+        <h3>RECURSOS</h3>
+        <ul>
+          <li>Curso Discover</li>
+          <li>Quiz React</li>
+          <li>Quiz Node</li>
+          <li>Quiz JavaScript</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="seçao">
+        <h3>SOBRE</h3>
+        <ul>
+          <li>Políticas de privacidade</li>
+          <li>Direitos autorais</li>
+          <li>Termos de uso</li>
+        </ul>
+        <h3>PARA EMPRESAS</h3>
+        <ul>
+          <li>Plataforma para empresas</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="conteudo-do-rodape">
+      <div class="rodape-inferior">
+        <img src="/images/Logo-footer.png" alt="logo" width=180>
+        <div class="icones-sociais">
+          <i class="bi bi-discord"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-twitter-x"></i>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="rodape-final">
+        <p>ADS blog. Todos os direitos reservados.</p>
+        <a href="#" class="topo">VOLTAR AO TOPO</a>
+      </div>
+  </footer>
+  <!-- Fim Seção de rodapé -->
+</body>
+
+</html>
